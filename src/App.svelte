@@ -1,5 +1,6 @@
 <script>
 	export let name;
+	let src = 'images/error-404-logo.png';
 </script>
 
 <main>
@@ -12,7 +13,8 @@
 
 	<h1>{name}</h1>
 	<!-- render an image from this project folder -->
-	<img src="images/error-404-logo.png" alt="Error-404 Logo" width="560" height="315">
+	<img {src} alt="Our complany logo"/>
+	
 
 	<h2>Welcome to Error-404 Web Development Agency LLC</h2>
 	<h2><strong>Currently Serving the DC, Maryland & Virgina Areas</strong></h2>
@@ -32,6 +34,8 @@
 	<br>
 	<br>
 	<br>
+
+	<h2>Articles</h2>
 
 	<!-- create a link for articles that displays a thumbnail -->
 	<a href="https://www.youtube.com/embed/b8eXfV5BO98">
